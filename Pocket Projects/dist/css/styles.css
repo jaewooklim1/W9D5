@@ -49,6 +49,20 @@ h1 {
     color: #767B91;
 }
 
+#drop-down {
+  display: flex;
+  align-content: flex-end;
+}
+
+.drop-down-dog-nav > h3 {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  
+  
+  
+}
+
 
 
 
@@ -56,10 +70,22 @@ h1 {
   display: none;
 }
 
+.drop-down-dog-nav > ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #F0F2EF;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: left;
+  padding: 0 20px 0 20px;
+}
+
 .dog-link.open {
   display: block;
   margin: 5px 5px 10px 5px;
   font-size: 16px;
+  padding: 0px 40px 0 px;
 }
 
 /*  Phase 4: Slide In & Out Classes */
@@ -90,4 +116,19 @@ h1 {
 .slide.active {
   opacity: 1;
   transform: translateX(0%) scale(1);
+}
+
+.todo-container {
+  max-width: 700px;
+  background: white;
+  padding: 40px;
+  margin: auto;
+
+}
+
+.todo-container > h2 {
+  font-size: 25px;
+  font-weight: 700;
+  padding-bottom: 15px;
+
 }
